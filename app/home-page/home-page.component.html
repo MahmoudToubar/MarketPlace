@@ -1,0 +1,226 @@
+<!-- Home slider -->
+<section class="p-0">
+    <div class="slide-1 home-slider">
+        <div *ngFor="let slide of sliders">
+            <div class="home text-left">
+                <img [src]="slide.ImageName" alt="" class="bg-img blur-up lazyload">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="slider-contain">
+                                <div>
+                                    <h4>{{slide.Title}}</h4>
+                                    <h1>{{slide.Description}}</h1><a href="#" class="btn btn-solid">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="home text-left">
+                <img src="../assets/images/home-banner/13.jpg" alt="" class="bg-img blur-up lazyload">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="slider-contain">
+                                <div>
+                                    <h4>furniture sofa</h4>
+                                    <h1>harmony chair</h1><a href="#" class="btn btn-solid">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Home slider end -->
+  
+  
+  <!-- collection banner -->
+  <section class="banner-furniture ratio_45">
+    <div class="container-fluid">
+        <div class="row partition3">
+            <div class="col-md-4">
+                <a href="#">
+                    <div class="collection-banner p-right text-right">
+                        <div class="img-part">
+                            <img src="../assets/images/furniture/2banner1.jpg" alt="" class="img-fluid blur-up lazyload bg-img">
+                        </div>
+                        <div class="contain-banner banner-3">
+                            <div>
+                                <h4>save 30%</h4>
+                                <h2>sofa</h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#">
+                    <div class="collection-banner p-right text-right">
+                        <div class="img-part">
+                            <img src="../assets/images/furniture/2banner2.jpg" alt="" class="img-fluid blur-up lazyload bg-img">
+                        </div>
+                        <div class="contain-banner banner-3">
+                            <div>
+                                <h4>save 60%</h4>
+                                <h2>new arrival</h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#">
+                    <div class="collection-banner p-right text-right">
+                        <div class="img-part">
+                            <img src="../assets/images/furniture/2banner3.jpg" alt="" class="img-fluid blur-up lazyload bg-img">
+                        </div>
+                        <div class="contain-banner banner-3">
+                            <div>
+                                <h4>save 60%</h4>
+                                <h2>chair</h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- collection banner end -->
+  
+  
+  <!-- Tab product -->
+  <div class="title1 section-t-space">
+    <h4>exclusive products</h4>
+    <h2 class="title-inner1">special products</h2>
+  </div>
+  <section class="section-b-space p-t-0 ratio_asos">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="theme-tab">
+                    <ul class="tabs tab-title">
+                        <li class="current"><a href="tab-4">Items</a></li>
+                        <li class=""><a href="tab-5">New Items</a></li>
+                        <li class=""><a href="tab-6">Popular Sellers</a></li>
+                    </ul>
+                    <div class="tab-content-cls">
+                        <app-item-box></app-item-box> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Tab product end -->
+   
+  
+  <!-- Parallax banner -->
+  <section class="p-0">
+    <div class="full-banner parallax text-center p-left">
+        <img src="../assets/images/parallax/3.jpg" alt="" class="bg-img blur-up lazyload">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="banner-contain">
+                        <h2>2018</h2>
+                        <h3>interior design in home</h3>
+                        <h4>special offer</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Parallax banner end -->
+  
+  
+  <!-- blog section -->
+  <section class="blog blog-2 section-b-space ratio3_2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title1">
+                    <h4>recent story</h4>
+                    <h2 class="title-inner1">latest blog</h2>
+                </div>
+                <div class="slide-3 no-arrow">
+                    <div class="col-md-12">
+                        <a href="#">
+                            <div class="classic-effect">
+                                <div>
+                                    <img alt="" src="../assets/images/furniture/blog1.jpg" class="img-fluid blur-up lazyload bg-img">
+                                </div>
+                                <span></span>
+                            </div>
+                        </a>
+                        <div class="blog-details">
+                            <h4>25 January 2018</h4>
+                            <a href="#">
+                                <p>Lorem ipsum dolor sit consectetur adipiscing elit,</p>
+                            </a>
+                            <h6>by: John Dio , 2 Comment</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <div class="classic-effect">
+                                <div><img alt="" src="../assets/images/furniture/blog2.jpg" class="img-fluid blur-up lazyload bg-img">
+                                </div>
+                                <span></span>
+                            </div>
+                        </a>
+                        <div class="blog-details">
+                            <h4>25 January 2018</h4>
+                            <a href="#">
+                                <p>Lorem ipsum dolor sit consectetur adipiscing elit,</p>
+                            </a>
+                            <h6>by: John Dio , 2 Comment</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <div class="classic-effect">
+                                <div>
+                                    <img alt="" src="../assets/images/furniture/blog3.jpg" class="img-fluid blur-up lazyload bg-img">
+                                </div>
+                                <span></span>
+                            </div>
+                        </a>
+                        <div class="blog-details">
+                            <h4>25 January 2018</h4>
+                            <a href="#">
+                                <p>Lorem ipsum dolor sit consectetur adipiscing elit,</p>
+                            </a>
+                            <h6>by: John Dio , 2 Comment</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <div>
+                                <div class="classic-effect">
+                                    <img alt="" src="../assets/images/furniture/blog2.jpg" class="img-fluid blur-up lazyload bg-img">
+                                </div>
+                                <span></span>
+                            </div>
+                        </a>
+                        <div class="blog-details">
+                            <h4>25 January 2018</h4>
+                            <a href="#">
+                                <p>Lorem ipsum dolor sit consectetur adipiscing elit,</p>
+                            </a>
+                            <h6>by: John Dio , 2 Comment</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- blog section end-->
